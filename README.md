@@ -41,7 +41,7 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 ![apiTestingGHActions](https://user-images.githubusercontent.com/52136006/116130848-15778800-a6a2-11eb-9f1d-a49580537cc4.gif)
 
 ## :link: CI com Github Actions :link:
-https://github.com/nayaraquino/cypress_bootcamp_challenge_01/actions/runs/785930190
+https://github.com/reneeazevedo/agilizeibootcamp-cypress-desafioN4/actions/runs/786539267
 
 ##
 Feito por <a href="https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/">Renée Azevedo</a> :wave: Entre em contato!
