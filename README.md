@@ -38,9 +38,9 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 
 ### Pré-requisitos ⚙️ ###
 Instalar as seguintes ferramentas:
-- [Git](https://git-scm.com), 
+- [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/)
-- [Cypress](https://cypress.io/).
+- [Cypress](https://cypress.io/)
 - Algum editor de código-fonte como [VSCode](https://code.visualstudio.com/)
 
 
