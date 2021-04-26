@@ -58,7 +58,7 @@ $ npm run cy:open
 
 # Execute a aplicação em modo headless
 $ npm run cy:run
-
+```
 
 ## ▶️ Testes em Execução
 ![apiTesting](https://user-images.githubusercontent.com/52136006/116127369-1f978780-a69e-11eb-8ac6-569fa51247ec.gif)
