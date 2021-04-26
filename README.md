@@ -40,7 +40,7 @@ Instalar as seguintes ferramentas:
 - [Git](https://git-scm.com)
 - [Node.js](https://nodejs.org/en/)
 - [Cypress](https://cypress.io/)
-- Algum editor de código-fonte como [VSCode](https://code.visualstudio.com/)
+- Editor de código-fonte [VSCode](https://code.visualstudio.com/) ou algum de sua preferência.
 
 
 ```ruby
