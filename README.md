@@ -33,6 +33,31 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 - [x] Excluir uma reserva Inexistente
 - [x] Excluir uma reserva sem token
 - [x] Excluir uma reserva com token invalido
+## Começando 💻
+
+### Pré-requisitos ⚙️ ###
+Instalar as seguintes ferramentas:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/)
+- [Cypress](https://cypress.io/)
+- Algum editor de código-fonte como [VSCode](https://code.visualstudio.com/)
+
+
+```ruby
+# Clone este repositório
+$ git clone <https://github.com/vanessafsoares/automation-practice>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd automation-practice
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação no navegador
+$ npm run cy:open
+
+# Execute a aplicação em modo headless
+$ npm run cy:run
 
 
 ## ▶️ Testes em Execução
