@@ -1,4 +1,6 @@
 class Requests {
+
+
     getPing() {
         return cy.request({
             method: 'GET',
@@ -8,7 +10,7 @@ class Requests {
     getBooking() {
         return cy.request({
             method: 'GET',
-            url: 'booking/20'
+            url: 'booking/7'
         })
     }
     postBooking() {
@@ -49,6 +51,12 @@ class Requests {
     }
 
     updateBooking(response) {
+        cy.fixture('updatebookingwithsucess').as('up');
+        
+        cy.get('@up').then(myFixture => {
+            this.myFixture =myFixture;
+        })
+      
         const id = response.body.bookingid
         return cy.request({
             method: 'PUT',

@@ -15,14 +15,11 @@ class Assertions {
             server: 'Cowboy',
             connection: 'keep-alive',
             'x-powered-by': 'Express',
-
-
         })
     }
     shouldHaveContentTypeAppJson(response) {
         expect(response.headers, 'content type').to.include({
             'content-type': 'application/json; charset=utf-8'
-
         })
     }
     shouldDurationBeFast(response) {
@@ -36,24 +33,24 @@ class Assertions {
         expect(response.isOkStatusCode, 'IsOkStatusCode').to.be.eq(true)
     }
 
-    shouldHaveAdditionalNeeds(response) {
-        expect(response.body.additionalneeds, 'Additionalneeds').to.be.eq('Lunch')
+    shouldHaveAdditionalNeeds(response,additionalneeds) {
+        expect(response.body.additionalneeds, 'Additionalneeds').to.be.eq(additionalneeds)
     }
-    shouldHaveBookingdates(response) {
-        expect(response.body.bookingdates.checkin, 'bookingdates').to.be.eq('2020-01-05')
-        expect(response.body.bookingdates.checkout, 'bookingdates').to.be.eq('2021-01-06')
+    shouldHaveBookingdates(response,checkin,checkout) {
+        expect(response.body.bookingdates.checkin, 'bookingdates').to.be.eq(checkin)
+        expect(response.body.bookingdates.checkout, 'bookingdates').to.be.eq(checkout)
     }
-    shouldHaveDepositPaid(response) {
-        expect(response.body.depositpaid, 'depositpaid').to.be.eq(false)
+    shouldHaveDepositPaid(response,depositpaid) {
+        expect(response.body.depositpaid, 'depositpaid').to.be.eq(depositpaid)
     }
-    shouldHaveFirstName(response) {
-        expect(response.body.firstname, 'firstname').to.be.eq('Jim')
+    shouldHaveFirstName(response,firstname) {
+        expect(response.body.firstname, 'firstname').to.be.eq(firstname)
     }
-    shouldHaveLasttName(response) {
-        expect(response.body.lastname, 'firstname').to.be.eq('Carlson')
+    shouldHaveLasttName(response,lastname) {
+        expect(response.body.lastname, 'lasttname').to.be.eq(lastname)
     }
-    shouldHaveTotalPrice(response) {
-        expect(response.body.totalprice, 'firstname').to.be.eq(111)
+    shouldHaveTotalPrice(response, totalprice) {
+        expect(response.body.totalprice, 'firstname').to.be.eq(totalprice)
     }
 
 

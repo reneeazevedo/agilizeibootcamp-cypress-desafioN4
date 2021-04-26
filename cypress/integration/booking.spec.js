@@ -4,15 +4,20 @@ import req from '../support/api/requests'
 import schemas from '../support/api/schemas'
 import assertions from '../support/api/assertions'
 
+describe('Booking', function () {
 
-
-
-context('Booking', () => {
-    before(() => {
+    beforeEach(function () {
+        
         req.doAuth()
+        cy.fixture('updatebookingwithsucess').then(function (data) {
+            this.data = data;
+            console.log(this.data.firstname)
+        })
 
-    });
+
+    })
     it('Validar o contrato do GET Booking @contract', () => {
+
         req.getBooking().then(getBookingResponse => {
             assertions.validateContractOf(getBookingResponse, schemas.getBookingSchema())
 
@@ -20,6 +25,7 @@ context('Booking', () => {
         })
     });
     it('Criar uma Reserva com sucesso @functional', () => {
+
         req.postBooking()
             .then(postBookingResponse => {
                 assertions.shouldHaveStatus(postBookingResponse, 200)
@@ -41,18 +47,21 @@ context('Booking', () => {
         })
 
     });
-    it('Alterar uma reserva com sucesso @functional', () => {
+    it('Alterar uma reserva com sucesso @functional', function () {
+
+
         req.postBooking().then(postBookingResponse => {
             req.updateBooking(postBookingResponse).then(putBookingResponse => {
                 assertions.shouldHaveStatus(putBookingResponse, 200)
                 assertions.shouldIsOkStatusCode(putBookingResponse)
                 assertions.shoulHaveStatusText(putBookingResponse, 'OK')
-                assertions.shouldHaveAdditionalNeeds(putBookingResponse)
-                assertions.shouldHaveBookingdates(putBookingResponse)
-                assertions.shouldHaveDepositPaid(putBookingResponse)
-                assertions.shouldHaveFirstName(putBookingResponse)
-                assertions.shouldHaveLasttName(putBookingResponse)
-                assertions.shouldHaveTotalPrice(putBookingResponse)
+                assertions.shouldHaveAdditionalNeeds(putBookingResponse, this.data.additionalneeds)
+
+                assertions.shouldHaveBookingdates(putBookingResponse, this.data.bookingdates.checkin, this.data.bookingdates.checkout)
+                assertions.shouldHaveDepositPaid(putBookingResponse, this.data.depositpaid)
+                assertions.shouldHaveFirstName(putBookingResponse, this.data.firstname)
+                assertions.shouldHaveLasttName(putBookingResponse, this.data.lastname)
+                assertions.shouldHaveTotalPrice(putBookingResponse, this.data.totalprice)
             })
         })
     });
