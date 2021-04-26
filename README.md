@@ -34,6 +34,7 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 - [x] Excluir uma reserva sem token
 - [x] Excluir uma reserva com token invalido
 ## ▶️ Testes em Execução
+![apiTesting](https://user-images.githubusercontent.com/52136006/116127369-1f978780-a69e-11eb-8ac6-569fa51247ec.gif)
 
 
 [![Github](https://img.shields.io/badge/-Github-595D60?style=flat-square&logo=Github&logoColor=white&link=https://github.com/reneeazevedo/)](https://github.com/reneeazevedo)
