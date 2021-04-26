@@ -9,7 +9,7 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 - Teste de Healthcheck
 - Asserções
 - Asserções de contrato com puglin cy-spok
-- Definindo variáveis de ambiemtne com Cypress.env
+- Definindo variáveis de ambiemte com Cypress.env
 - Definição da Arquitetura e Refatoração dos Scripts
 - Filtrando a execução dos testes utilizando tags, por meio do puglin cypress-select-tests 
 - CI com GitHub Actions
