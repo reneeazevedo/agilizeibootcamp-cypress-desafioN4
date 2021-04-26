@@ -24,7 +24,7 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
  ### Teste healthcheck
  - [x] Validar que a aplicação está no ar
  ### Teste de Api
-- [x]:white_check_mark Criar uma Reserva com sucesso :white_check_mark
+- [x]: white_check_mark Criar uma Reserva com sucesso :white_check_mark
 - [x] Tentar alterar uma reserva sem token
 - [x] Alterar uma reserva com sucesso
 - [x] Alterar uma reserva inexistente
