@@ -24,7 +24,7 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
  ### Teste healthcheck
  - [x] Validar que a aplicação está no ar
  ### Teste de Api
-- [x] `#f03c15` Criar uma Reserva com sucesso `#f03c15` 
++ - [x] Criar uma Reserva com sucesso 
 - [x] Tentar alterar uma reserva sem token
 - [x] Alterar uma reserva com sucesso
 - [x] Alterar uma reserva inexistente
