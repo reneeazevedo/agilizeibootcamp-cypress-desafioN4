@@ -40,6 +40,12 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 ## ▶️ Testes em Execução GitHub Actions
 ![apiTestingGHActions](https://user-images.githubusercontent.com/52136006/116130848-15778800-a6a2-11eb-9f1d-a49580537cc4.gif)
 
+## :link: CI com Github Actions :link:
+https://github.com/nayaraquino/cypress_bootcamp_challenge_01/actions/runs/785930190
+
+##
+Feito por <a href="https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/">Renée Azevedo</a> :wave: Entre em contato!
+
 [![Github](https://img.shields.io/badge/-Github-595D60?style=flat-square&logo=Github&logoColor=white&link=https://github.com/reneeazevedo/)](https://github.com/reneeazevedo)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)](https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)
 [![Gmail](https://img.shields.io/badge/-Gmail-595D60?style=flat-square&logo=Gmail&logoColor=white&link=mailto:renee.azevedosys@gmail.com/)](mailto:renee.azevedosys@gmail.com/)
