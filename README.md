@@ -3,7 +3,11 @@
 ---
 Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 
-
+## :books: Conceitos Apresentados no Módulo
+- Testes de API com verbos GET, POST, PUT e DELETE;
+- Teste de Contrato
+- Asserções
+- Definição da Arquitetura e Refatoração dos Scripts
 ## :hammer_and_wrench: Tecnologias Utilizadas
 - [Cypress](https://www.cypress.io/)
 - [Node.js](https://nodejs.org/en/)
