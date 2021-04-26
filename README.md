@@ -19,9 +19,20 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
  ## Cenários :white_check_mark:
-
-- [x] Cadastro de usuário
-- [x] Compra
+ ### Teste de Contrato
+ - [x] Validar o contrato do GET Booking
+ ### Teste healthcheck
+ - [x] Validar que a aplicação está no ar
+ ### Teste de Api
+- [x] Criar uma Reserva com sucesso
+- [x] Tentar alterar uma reserva sem token
+- [x] Alterar uma reserva com sucesso
+- [x] Alterar uma reserva inexistente
+- [x] Alterar uma reserva com token invalido
+- [x] Excluir uma reserva com sucesso
+- [x] Excluir uma reserva Inexistente
+- [x] Excluir uma reserva sem token
+- [x] Excluir uma reserva com token invalido
 
 [![Github](https://img.shields.io/badge/-Github-595D60?style=flat-square&logo=Github&logoColor=white&link=https://github.com/reneeazevedo/)](https://github.com/reneeazevedo)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)](https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)
