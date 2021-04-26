@@ -36,6 +36,7 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 ## ▶️ Testes em Execução
 ![apiTesting](https://user-images.githubusercontent.com/52136006/116127369-1f978780-a69e-11eb-8ac6-569fa51247ec.gif)
 
+![apiTestingGHActions](https://user-images.githubusercontent.com/52136006/116130848-15778800-a6a2-11eb-9f1d-a49580537cc4.gif)
 
 [![Github](https://img.shields.io/badge/-Github-595D60?style=flat-square&logo=Github&logoColor=white&link=https://github.com/reneeazevedo/)](https://github.com/reneeazevedo)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)](https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)
