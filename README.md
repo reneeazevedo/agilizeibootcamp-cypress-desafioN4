@@ -45,19 +45,25 @@ Instalar as seguintes ferramentas:
 
 ```ruby
 # Clone este repositório
-$ git clone <https://github.com/vanessafsoares/automation-practice>
+$ git clone <https://github.com/reneeazevedo/agilizeibootcamp-cypress-desafioN4>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd automation-practice
+$ cd "pasta do projeto"
 
 # Instale as dependências
 $ npm install
 
 # Execute a aplicação no navegador
 $ npm run cy:open
-
 # Execute a aplicação em modo headless
-$ npm run cy:run
+$ npm run test
+# Execute em modo headless somente os testes com a tag @healthcheck
+$ npm run test:healthcheck
+# Execute em modo headless somente os testes com a tag @contract
+$ npm run test:contract
+# Execute em modo headless somente os testes com a tag @functional
+$ npm run test:functional
+
 ```
 
 ## ▶️ Testes em Execução
