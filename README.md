@@ -20,5 +20,5 @@ Projeto desenvolvido para o desafio Nº4 do Agilizei Bootcamp.
 
 
 [![Github](https://img.shields.io/badge/-Github-595D60?style=flat-square&logo=Github&logoColor=white&link=https://github.com/reneeazevedo/)](https://github.com/reneeazevedo)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nayaraquino//)](https://www.linkedin.com/in/nayaraquino/)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)](https://www.linkedin.com/in/ren%C3%A9e-moura-ctfl-ctal-tae-ctfl-at-85b90a13a/)
 [![Gmail](https://img.shields.io/badge/-Gmail-595D60?style=flat-square&logo=Gmail&logoColor=white&link=mailto:renee.azevedosys@gmail.com/)](mailto:renee.azevedosys@gmail.com/)
